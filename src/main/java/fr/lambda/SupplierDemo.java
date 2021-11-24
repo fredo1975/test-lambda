@@ -4,7 +4,6 @@ import java.util.function.Supplier;
 
 public class SupplierDemo {
 	public static void main(String args[]) {
-
 		// This function returns a random value.
 		Supplier<Double> randomValue = () -> Math.random();
 
